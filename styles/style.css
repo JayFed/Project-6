@@ -33,7 +33,7 @@ body {
 }
 
 .logo img:hover {
-    transform: rotate(360deg);
+    transform: rotateY(180deg);
 }
 
 h1 {
