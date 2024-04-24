@@ -15,3 +15,4 @@ function donate(){
         Donate.style.width="200px"
     }
 }
+
