@@ -1,39 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/c5/92/c4/c592c4100ca142adf43286b93dbfa293.gif" type="image/gif">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="container">
-        <div class="glass">
-            <div class="logo"><img src="https://media.discordapp.net/attachments/1064099839262076998/1230496007289049119/d983b7a7ac8b39ac276e9c6367b8514e.jpg?ex=663387b5&is=662112b5&hm=b031d868d15421f0ced8c6acdd578acd22077173da3acb62b0724249742109ba&=&format=webp&width=701&height=701" alt=""></div>
-            
-            <h1>Jay Fed</h1>
-            <div class="buttons">
-                <a class="button-36" role="button" href="https://www.instagram.com/araina______/" target="_blank"><div class="icon"><ion-icon name="logo-instagram"></ion-icon><p>Instagram</p></div>   </a>
-                <a class="button-36" role="button" href="https://www.facebook.com/Fedstb" target="_blank"><div class="icon"><ion-icon name="logo-facebook"></ion-icon><p>Facebook</p></div></a>
-                <a class="button-36" role="button" href="https://discord.gg/TDpNj2j82x" target="_blank"><div class="icon"><ion-icon name="logo-discord"></ion-icon><p>Discord</p></div></a>
-                <a class="button-36" role="button" href="https://open.spotify.com/user/31utsolhl4visjkz6o2aom5mqmza?si=0653fbf6753a4805" target="_blank"><div class="icon"><i class="fa-brands fa-spotify"></i><p>Spotify</p></div></a>
-
-                <a class="button-37" role="button" onclick="donate()">
-                <p>Donate</p>
-                <div class="Donate-content">
-                <img src="https://media.discordapp.net/attachments/1064099839262076998/1230510568750710824/004999118515245_20240418_202916.jpg?ex=66339545&is=66212045&hm=7a5a0634bea4c13d9a215375c61fc5b4ccc70d748755794847eb694103360483&=&format=webp" alt="">
-                <p>Thank You</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
+        <link
+            rel="shortcut icon"
+            href="https://i.pinimg.com/originals/c5/92/c4/c592c4100ca142adf43286b93dbfa293.gif"
+            type="image/gif"
+        />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="glass">
+                <div class="logo">
+                    <img
+                        src="https://media.discordapp.net/attachments/1064099839262076998/1230496007289049119/d983b7a7ac8b39ac276e9c6367b8514e.jpg?ex=663387b5&is=662112b5&hm=b031d868d15421f0ced8c6acdd578acd22077173da3acb62b0724249742109ba&=&format=webp&width=701&height=701"
+                        alt=""
+                    />
                 </div>
-                </a>
+
+                <h1>Jay Fed</h1>
+                <div class="buttons">
+                    <a
+                        class="button-36"
+                        role="button"
+                        href="https://www.instagram.com/araina______/"
+                        target="_blank"
+                        ><div class="icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a
+                        class="button-36"
+                        role="button"
+                        href="https://www.facebook.com/Fedstb"
+                        target="_blank"
+                        ><div class="icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <p>Facebook</p>
+                        </div></a
+                    >
+                    <a
+                        class="button-36"
+                        role="button"
+                        href="https://discord.gg/TDpNj2j82x"
+                        target="_blank"
+                        ><div class="icon">
+                            <ion-icon name="logo-discord"></ion-icon>
+                            <p>Discord</p>
+                        </div></a
+                    >
+                    <a
+                        class="button-36"
+                        role="button"
+                        href="https://open.spotify.com/user/31utsolhl4visjkz6o2aom5mqmza?si=0653fbf6753a4805"
+                        target="_blank"
+                        ><div class="icon">
+                            <i class="fa-brands fa-spotify"></i>
+                            <p>Spotify</p>
+                        </div></a
+                    >
+
+                    <a class="button-37" role="button" onclick="donate()">
+                        <p>Donate</p>
+                    </a>
+                </div>
+            </div>
+            <div class="moldle">
+                <div class="content">
+                    <img
+                        src="https://media.discordapp.net/attachments/1064099839262076998/1230510568750710824/004999118515245_20240418_202916.jpg?ex=66339545&is=66212045&hm=7a5a0634bea4c13d9a215375c61fc5b4ccc70d748755794847eb694103360483&=&format=webp"
+                        alt=""
+                    />
+                    <p>Thank You</p>
+                    <span
+                        class="material-symbols-outlined"
+                        onclick="CloseModle()"
+                    >
+                        close
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="./app.js"></script>
+        <script src="./app.js"></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
 </html>
